@@ -1,0 +1,6 @@
+# Folders
+.netlify
+dist
+
+# Environment variables
+.env
