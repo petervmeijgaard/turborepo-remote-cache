@@ -12,7 +12,7 @@ app.use(logger());
 app.route("/v8/artifacts", artifacts);
 app.route("/admin", admin);
 
-app.get("/", c => {
+app.get("/", (c) => {
 	return c.body("Hello Hono!");
 });
 
